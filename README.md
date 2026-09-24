@@ -1,5 +1,12 @@
 # JavaScript pagrindai (V-H2, 2026-2027)
 
+Miroslav Monkevic practice tasks for JS intro cource (i took it 2026-2027 at TECHIN)
+Tasks are made not algoritmically optimal intentionally. Main goal is to learn JS language aspects that came with ES6. Thats why i sometimes prefer brutal force etc.
+
+VS Code config:
+* File->Autosave
+* Code formatter - Prettier
+
 All assignments due **2026-10-05**.
 
 | # | Modulis | Data | Užduotys |
