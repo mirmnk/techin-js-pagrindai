@@ -1,6 +1,6 @@
 "use strict";
 
-/* 2	Akvariumas	Akvariume gyvena a žuvų, kasdien įdedama b. Kiek bus po n dienų (su paaiškinamaisiais žodžiais)	5, 3, 3 → Po 3 dienų akvariume gyvens 14 žuvų.
+/* 2. Akvariumas. Akvariume gyvena a žuvų. Kiekvieną dieną Petriukas į akvariumą įdeda b žuvų. Parašykite programą, kuri suskaičiuotų kiek iš viso bus žuvų po n dienų. Rezultatą reikia išvesti su paaiškinamaisiais žodžiais.
  */
 let intZuvuAkvariume = +prompt("Kiek žuvų gyvena akvariume?");
 let intZuvuIdedama = +prompt("Kiek žuvų į akvariumą įdedama kiekvieną dieną?");

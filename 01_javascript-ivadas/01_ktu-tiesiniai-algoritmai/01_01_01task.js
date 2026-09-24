@@ -1,6 +1,6 @@
 "use strict";
 
-/* 1. Pamoka. Parašykite programą, kuri padéty Petriukui suskaičiuoti, kiek pamoku jis turi per savaitę ir kiek tai sudarys minučiy. Klaviatüra jvedami 5 skaičiai, reiškiantys kiekvienos dienos pamoku skaičų.
+/* 1. 1. Pamoka. Parašykite programą, kuri padėtų Petriukui suskaičiuoti, kiek pamokų jis turi per savaitę ir kiek tai sudarys minučių. Klaviatūra įvedami 5 skaičiai, reiškiantys kiekvienos dienos pamokų skaičių.
  */
 
 let intPamokuSkaicius = 0;
