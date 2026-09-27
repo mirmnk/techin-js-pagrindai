@@ -7,7 +7,7 @@ VS Code config:
 * File->Autosave
 * Code formatter - Prettier
 
-All assignments due **2026-10-05**.
+All assignments due **2026-10-06** (moved from 10-05).
 
 | # | Modulis | Data | Užduotys |
 |---|---------|------|----------|
@@ -17,3 +17,5 @@ All assignments due **2026-10-05**.
 | 04 | JavaScript funkcijos | 2026-09-15 | JS functions, Šventės |
 | 05 | JavaScript ciklai | 2026-09-16 | JS ciklai (loops), KTU ciklai |
 | 06 | Masyvai | 2026-09-17 | Arrays |
+| 07 | Datos | 2026-09-22 | Dates |
+| 08 | Eilutės (String) | 2026-09-24 | Strings |
