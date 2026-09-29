@@ -18,4 +18,6 @@ All assignments due **2026-10-06** (moved from 10-05).
 | 05 | JavaScript ciklai | 2026-09-16 | JS ciklai (loops), KTU ciklai |
 | 06 | Masyvai | 2026-09-17 | Arrays |
 | 07 | Datos | 2026-09-22 | Dates |
-| 08 | Eilutės (String) | 2026-09-24 | Strings |
+| 08 | Eilutės (String) | 2026-09-24 | Strings, Strings 2 |
+| 09 | Objektai | ? | Objects, Objects 2 |
+| 10 | Pasikartojimas | ? | JS kartojimas: balansas |
