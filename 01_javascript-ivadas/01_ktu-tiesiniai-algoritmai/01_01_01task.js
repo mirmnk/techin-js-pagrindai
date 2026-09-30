@@ -10,7 +10,7 @@ const intPAMOKOJE_MINUCIU = 45;
 const arrSavaitesDienos = [
   "pirmadienį",
   "antradienį",
-  "trečiadinį",
+  "trečiadienį",
   "ketvirtadienį",
   "penktadienį",
 ];

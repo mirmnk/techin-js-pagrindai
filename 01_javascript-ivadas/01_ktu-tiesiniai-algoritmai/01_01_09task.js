@@ -20,7 +20,7 @@ const intSausainiuTautvydo = getFromPromptOrRandom(
   60,
 );
 const intDrauguIskepeTiekpat = getFromPromptOrRandom(
-  "Kiek daraugų iškepe tiek pat sausainių, kaip Tautvydas?",
+  "Kiek draugų iškepe tiek pat sausainių, kaip Tautvydas?",
   2,
   5,
 );

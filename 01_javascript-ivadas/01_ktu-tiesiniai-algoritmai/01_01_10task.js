@@ -23,14 +23,14 @@ const intSaldainiuSuvalgoMarius = getFromPromptOrRandom(
   intSaldainiuGaunaMarius,
 );
 const intDienuIkiKaledu = getFromPromptOrRandom(
-  "Kiek dienų liko iki Klalėdų?",
+  "Kiek dienų liko iki Kalėdų?",
   1,
   364,
 );
 const intSaldainiuSukapta =
   intDienuIkiKaledu * (intSaldainiuGaunaMarius - intSaldainiuSuvalgoMarius);
-const intDraugu = Math.floor(intSaldainiuSukapta / intSaldainiuGaunaMarius);
-const intSaldainiuLiks = intSaldainiuSukapta % intSaldainiuGaunaMarius;
+const intDraugu = Math.floor(intSaldainiuSukapta / intSaldainiuSuvalgoMarius);
+const intSaldainiuLiks = intSaldainiuSukapta % intSaldainiuSuvalgoMarius;
 
 const strResult = `
 Kiek saldainių gauna Marius? ${intSaldainiuGaunaMarius}

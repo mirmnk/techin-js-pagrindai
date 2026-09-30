@@ -6,7 +6,9 @@ Paprašykite vartotojo įvesti skaičių, kuris turėtų kelis skaičius po kabl
 * Suapvalintą aukštyn skaičių  
 */
 
-const fltNum = prompt(
+"use strict";
+
+const fltNum = +prompt(
   "Įveskite skaičių, kuris turi kelis skaičius po kablelio.",
 );
 

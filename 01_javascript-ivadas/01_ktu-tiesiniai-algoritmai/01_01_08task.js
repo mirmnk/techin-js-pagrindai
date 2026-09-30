@@ -17,8 +17,7 @@ const getFromPromptOrRandom = () =>
 const intKeltoTalpa = 12; // automobiliu
 const intAutomobiliu = getFromPromptOrRandom();
 const intPerkelimu = Math.floor(intAutomobiliu / intKeltoTalpa);
-const intAutoLiks =
-  intAutomobiliu > intKeltoTalpa ? intAutomobiliu % intKeltoTalpa : 0;
+const intAutoLiks = intAutomobiliu % intKeltoTalpa;
 
 const strResultMsg = `
      Automobilių skaičius: ${intAutomobiliu}

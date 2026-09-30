@@ -16,7 +16,7 @@ const intCARspeed = inBROWSER
 
 // time = distance/speed. To convert kmh to msec  kmh*1000/3600.
 const fltSPEEDmsec = (intSpeed) => (intSpeed * 1000) / 3600;
-const strRESULT = `Automobilis tunelį pravažiuos per ${Number(intTUNNELlengthM / ((intCARspeed * 1000) / 3600)).toFixed(2)} s.`;
+const strRESULT = `Automobilis tunelį pravažiuos per ${(intTUNNELlengthM / fltSPEEDmsec(intCARspeed)).toFixed(2)} s.`;
 
 if (inBROWSER) {
   alert(strRESULT);

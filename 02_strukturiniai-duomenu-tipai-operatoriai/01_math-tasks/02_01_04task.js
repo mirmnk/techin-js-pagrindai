@@ -10,6 +10,9 @@ const fltNum = 2.100212;
 let intDecimal = 0;
 do {
   intDecimal = +prompt("Kiek skaičių po kablelio palikti? (0-6)");
-} while (intDecimal > 6 || intDecimal < 0);
+} while (intDecimal > 6 || intDecimal < 0 || !Number.isInteger(intDecimal));
 
-console.log(Number(fltNum).toFixed(intDecimal));
+// isInteger rejects floating point numbers and all that is not int.
+// Zero is aceptable. +prompt returns '' as zero also (it is ok to me)
+
+console.log(fltNum.toFixed(intDecimal));

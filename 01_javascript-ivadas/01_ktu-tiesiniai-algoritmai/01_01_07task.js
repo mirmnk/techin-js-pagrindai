@@ -11,11 +11,11 @@ const printResult = (strText) => (inBROWSER ? alert : console.log)(strText);
 const getRandomInt = () => Math.floor(Math.random() * 100) + 1;
 
 const getFromPromptOrRandom = () =>
-  inBROWSER ? +prompt('Kiek pupdelių reikia supakuti?"') : getRandomInt();
+  inBROWSER ? +prompt('Kiek puodelių reikia supakuoti?"') : getRandomInt();
 
 const intPuodeliai = getFromPromptOrRandom();
 
-const intDeziu = Number.parseInt(intPuodeliai / 3);
+const intDeziu = Math.floor(intPuodeliai / 3);
 const intLikoNesupakuotu = intPuodeliai % 3;
 
 const strResult = `

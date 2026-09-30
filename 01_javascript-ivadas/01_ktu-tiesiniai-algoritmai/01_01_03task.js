@@ -4,12 +4,12 @@
 
 "use strict";
 // run in browser or on server
-const inBrowser = typeof window !== "undefined";
+const inBROWSER = typeof window !== "undefined";
 
 // All operations will be in cents
 
 const getResultStr = (intCents) =>
-  `Taupyklėje yra ${Number(intCents / 100).toFixed(2)} Lt.`;
+  `Taupyklėje yra ${(intCents / 100).toFixed(2)} Lt.`;
 
 // Random int 1 to 10
 const getRandomInt = () => Math.floor(Math.random() * 10) + 1;
