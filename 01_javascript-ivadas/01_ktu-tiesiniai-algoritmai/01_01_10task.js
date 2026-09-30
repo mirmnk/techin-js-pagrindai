@@ -27,10 +27,10 @@ const intDienuIkiKaledu = getFromPromptOrRandom(
   1,
   364,
 );
-const intSaldainiuSukapta =
+const intSaldainiuSukaupta =
   intDienuIkiKaledu * (intSaldainiuGaunaMarius - intSaldainiuSuvalgoMarius);
-const intDraugu = Math.floor(intSaldainiuSukapta / intSaldainiuSuvalgoMarius);
-const intSaldainiuLiks = intSaldainiuSukapta % intSaldainiuSuvalgoMarius;
+const intDraugu = Math.floor(intSaldainiuSukaupta / intSaldainiuSuvalgoMarius);
+const intSaldainiuLiks = intSaldainiuSukaupta % intSaldainiuSuvalgoMarius;
 
 const strResult = `
 Kiek saldainių gauna Marius? ${intSaldainiuGaunaMarius}
