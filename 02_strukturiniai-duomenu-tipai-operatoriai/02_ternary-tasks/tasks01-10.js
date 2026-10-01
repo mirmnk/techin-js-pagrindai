@@ -172,7 +172,7 @@ function task07(resultNode) {
     strUsername.trim() === "" // user pressed OK without input
   );
 
-  const strResult = strUsername.length >= 4 ? "Valid" : "Too short";
+  const strResult = strUsername.trim().length >= 4 ? "Valid" : "Too short";
   printResult(strResult, resultNode);
 }
 
