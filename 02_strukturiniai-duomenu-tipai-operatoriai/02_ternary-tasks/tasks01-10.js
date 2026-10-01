@@ -133,7 +133,7 @@ function task06(resultNode) {
   let intNumber1, intNumber2;
 
   do {
-    strNumber1 = prompt("Įveskite pirma skaičių.");
+    strNumber1 = prompt("Įveskite pirmą skaičių.");
     intNumber1 = Number(strNumber1);
   } while (
     strNumber1 === null || // user pressed Cancel
@@ -142,7 +142,7 @@ function task06(resultNode) {
   );
 
   do {
-    strNumber2 = prompt("Įveskite pirma skaičių.");
+    strNumber2 = prompt("Įveskite antrą skaičių.");
     intNumber2 = Number(strNumber2);
   } while (
     strNumber2 === null || // user pressed Cancel
@@ -243,12 +243,15 @@ function task10(resultNode) {
 
 tasks.push(task10);
 
+// adding onclick listeners to buttons
+//
+
 for (const button of buttons) {
   button.addEventListener("click", () => {
     const taskNumber =
       button.parentNode.parentNode.firstElementChild.textContent.trim();
     if (tasks[taskNumber - 1]) {
-      tasks[taskNumber - 1](button.parentNode.nextElementSibling);
+      tasks[taskNumber - 1](button.parentNode.nextElementSibling); // node for result output is TD sibling
     }
   });
 }
