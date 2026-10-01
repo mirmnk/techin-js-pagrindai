@@ -26,8 +26,8 @@ function task01(resultNode) {
     !Number.isInteger(intNumber) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = `Skaičius ${strNumber} yra ${intNumber % 2 ? "nelyginis" : "lyginis"}`;
-  printResult(srtResult, resultNode);
+  const strResult = `Skaičius ${intNumber} yra ${intNumber % 2 ? "nelyginis" : "lyginis"}`;
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task01);
@@ -51,8 +51,8 @@ function task02(resultNode) {
     !Number.isInteger(intAge) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intAge >= 18 ? "Adult" : "Minor";
-  printResult(srtResult, resultNode);
+  const strResult = intAge >= 18 ? "Adult" : "Minor";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task02);
@@ -76,8 +76,8 @@ function task03(resultNode) {
     !Number.isInteger(intNumber) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intNumber > 30 ? "Hot" : "Cool";
-  printResult(srtResult, resultNode);
+  const strResult = intNumber > 30 ? "Hot" : "Cool";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task03);
@@ -91,8 +91,8 @@ tasks.push(task03);
 function task04(resultNode) {
   const isLoggedIn = confirm("Prisijungti?");
 
-  const srtResult = isLoggedIn ? "Welcome back!" : "Please log in";
-  printResult(srtResult, resultNode);
+  const strResult = isLoggedIn ? "Welcome back!" : "Please log in";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task04);
@@ -116,8 +116,8 @@ function task05(resultNode) {
     !Number.isInteger(intNumber) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intNumber >= 100 ? "Discount applied" : "No discount";
-  printResult(srtResult, resultNode);
+  const strResult = intNumber >= 100 ? "Discount applied" : "No discount";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task05);
@@ -150,8 +150,8 @@ function task06(resultNode) {
     !Number.isInteger(intNumber2) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intNumber1 > intNumber2 ? intNumber1 : intNumber2;
-  printResult(srtResult, resultNode);
+  const strResult = intNumber1 > intNumber2 ? intNumber1 : intNumber2;
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task06);
@@ -172,8 +172,8 @@ function task07(resultNode) {
     strUsername.trim() === "" // user pressed OK without input
   );
 
-  const srtResult = strUsername.length >= 4 ? "Valid" : "Too short";
-  printResult(srtResult, resultNode);
+  const strResult = strUsername.length >= 4 ? "Valid" : "Too short";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task07);
@@ -197,8 +197,8 @@ function task08(resultNode) {
     !Number.isInteger(intNumber) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intNumber % 5 ? "Not divisible" : "Divisible";
-  printResult(srtResult, resultNode);
+  const strResult = intNumber % 5 ? "Not divisible" : "Divisible";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task08);
@@ -222,8 +222,8 @@ function task09(resultNode) {
     !Number.isInteger(intNumber) // is number an integer, not float, NaN or Infinity
   );
 
-  const srtResult = intNumber >= 50 ? "Pass" : "Fail";
-  printResult(srtResult, resultNode);
+  const strResult = intNumber >= 50 ? "Pass" : "Fail";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task09);
@@ -237,8 +237,8 @@ tasks.push(task09);
 function task10(resultNode) {
   const darkModeOn = confirm("Įjungti tamsujį režimą?");
 
-  const srtResult = darkModeOn ? "dark" : "light";
-  printResult(srtResult, resultNode);
+  const strResult = darkModeOn ? "dark" : "light";
+  printResult(strResult, resultNode);
 }
 
 tasks.push(task10);
