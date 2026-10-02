@@ -17,7 +17,7 @@ for(const book in library) {
     if (book.readingStatus === true) {
         strResult += `Already read ${book.title} by ${book.author}. `;
     } else if (!book.readingStatus === false) {
-                strResult += `You still need to read ${book.title} by ${book.author}. `;
+                strResult += `You still need to read ${book.title} by ${book.author}. `; 
     }
 
 }
