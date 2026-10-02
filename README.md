@@ -20,5 +20,5 @@ All assignments due **2026-10-06** (moved from 10-05).
 | 07 | Datos | 2026-09-22 | Dates |
 | 08 | Eilutės (String) | 2026-09-24 | Strings, Strings 2 |
 | 09 | Objektai | 2026-09-28 | Objects, Objects 2 |
-| 10 | DOM | 2026-09-29 | DOM tasks |
+| 10 | DOM | 2026-09-29, 09-30 | DOM, DOM more advanced, DOM tasks (PDF), DOM simple events |
 | 11 | Pasikartojimas | 2026-09-21 | JS kartojimas: balansas |
