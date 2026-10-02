@@ -9,3 +9,17 @@ const library = [
     { author: 'Homer', title: 'The Odyssey', readingStatus: true },
     { author: 'Harper Lee', title: 'To Kill a Mockingbird', readingStatus: false }
 ];
+
+let strResult = ""
+
+
+for(const book in library) {
+    if (book.readingStatus === true) {
+        strResult += `Already read ${book.title} by ${book.author}. `;
+    } else if (!book.readingStatus === false) {
+                strResult += `You still need to read ${book.title} by ${book.author}. `;
+    }
+
+}
+
+console.log(strResult);
