@@ -21,14 +21,18 @@ const input =
   "name,age,city\nJonas,25,Vilnius\nOna,30,Kaunas\nPetras,22,Klaipeda";
 
 const toObjArray = (strObjects) => {
-  let arrStrObj = strObjects.split("\n");
-  arrStrObj = arrStrObj.map((str) => str.split(","));
-  let arrObj = [];
-  // console.log(arrStrObj[0][0]);
-  for (const i = 1; i < arrStrObj.length; i++) {
-    console.log(arrStrObj[i]);
-  }
+  const arrStrObj = strObjects.split("\n").map((str) => str.split(","));
+
+  const arrKeys = arrStrObj.shift();
+  const arrValues = arrStrObj;
+
+  const arrObj = [];
+  arrStrObj.forEach((value, index) => {
+    
+    // need an array of [key, value] pairs for Object.fromEntries
+    arrObj.push(Object.fromEntries(arrKeys.map((key, i) => [key, value[i]])));
+  });
   return arrObj;
 };
 
-console.table(toObjArray(input));
+console.log(...toObjArray(input));

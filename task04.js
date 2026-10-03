@@ -21,10 +21,12 @@ const posts = [
 
 const getUniqueSorted = (arrPosts) => {
   const arrTags = [];
-  arrPosts.forEach((element) => {
-    arrTags.push(...element.tags);
+  arrPosts.forEach((objEl) => {
+    objEl.tags.forEach((tag) =>
+      !arrTags.includes(tag) ? arrTags.push(tag) : null,
+    );
   });
   return arrTags;
 };
 
-console.log([...new Set(getUniqueSorted(posts))]);
+console.log(getUniqueSorted(posts).sort());
