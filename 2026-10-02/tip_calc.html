@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tips calculator by Miroslav Monkevic</title>
+    <script src="tip_calc.js" defer></script>
+  </head>
+  <body>
+    <table style="margin: 2em; border: 1px solid black" cellpadding="5">
+      <thead style="background-color: rgb(15, 157, 223)">
+        <tr>
+          <th colspan="2">Tip Calculator</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            $
+            <input
+              type="text"
+              style="background-color: rgb(182, 223, 237)"
+              value=""
+              id="sum"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td id="tipProc"></td>
+          <td>
+            <input type="range" name="" id="ctrlRange" />
+          </td>
+        </tr>
+        <tr>
+          <td width="30%" align="right" id="tip">Tip</td>
+          <td style="background-color: rgb(243, 210, 176)"></td>
+        </tr>
+        <tr>
+          <td align="right" id="total">Total</td>
+          <td style="background-color: rgb(243, 210, 176)"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
