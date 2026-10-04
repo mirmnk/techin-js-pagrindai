@@ -22,3 +22,4 @@ All assignments due **2026-10-06** (moved from 10-05).
 | 09 | Objektai | 2026-09-28 | Objects, Objects 2 |
 | 10 | DOM | 2026-09-29, 09-30 | DOM, DOM more advanced, DOM tasks (PDF), DOM simple events |
 | 11 | Pasikartojimas | 2026-09-21 | JS kartojimas: balansas |
+| 12 | Pasiruošimas atsiskaitymui | 2026-10-01, 10-02 | DOM tips calculator, Reduce task (`12_pasiruosimas/`); Pasiruošimas KD 2026 (11 užd.), Tips Calculator (`2026-10-02/`) |
