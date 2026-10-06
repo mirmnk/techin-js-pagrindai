@@ -4,12 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>10 DOM 04 DOM simple events by Miroslav Monkevic</title>
-  </head>
+    <style>
+        h2 {
+            margin: 1em 1em 0 0;
+        }
+    </style>
   <body>
     <script>
+      /* 
+1. Button Click Counter
+Goal: Create a button that increases a counter displayed on the screen every time it is clicked.
+Event: click
+ */
       const button1 = document.createElement("button");
-      button1.addA = "0";
-      document.body.append(button1);
+      button1.textContent = "0";
+      button1.style.width = "100px";
+
+        let elH1 = document.createElement("h2");
+        elH1.textContent = "1. Button Click Counter";
+
+      document.body.append(elH1, button1);
+
+      button1.addEventListener("click", (e) => {
+        e.target.textContent++;
+      });
+      /*
+2. Input Live Preview
+Goal: Display the text entered in an <input> field in real-time below the field.
+Event: input
+*/
+      const input1 = document.createElement("input");
+      input1.type = "text";
+
+      const outputDiv1 = document.createElement("div");
+      outputDiv1.style.height = "1em";
+      elH1 = document.createElement("h2");
+      elH1.textContent = "2. Input Live Preview";
+      
+
+      document.body.append(elH1, input1, outputDiv1);
+      input1.addEventListener("input", (e) => {
+        outputDiv1.textContent = e.target.value;
+      });
+
+      /*
+3. Change Background on Hover
+Goal: Change the background color of a div when the mouse hovers over it and revert when it leaves.
+Events: mouseenter, mouseleave
+ */
+
+      const outputDiv2 = document.createElement("div");
+      Object.assign(outputDiv2.style, {
+        width: "200px",
+        height: "200px",
+        border: "1px black solid",
+      });
+        
+      elH1 = document.createElement("h2");
+      elH1.textContent = "3. Change Background on Hover";
+
+      document.body.append(elH1, outputDiv2);
+
+      outputDiv2.addEventListener("mouseenter", (e) => {
+        e.target.style.backgroundColor = "yellow";
+      });
+
+      outputDiv2.addEventListener("mouseleave", (e) => {
+        e.target.style.backgroundColor = "";
+      });
     </script>
   </body>
 </html>
