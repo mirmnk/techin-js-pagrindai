@@ -2,6 +2,8 @@
 
 let arrForOutput = [];
 
+
+
 for (let i = 0; i < 10; ++i) arrForOutput.push(i);
 
 // alert(arrForOutput.join(" "));
