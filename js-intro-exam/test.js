@@ -1,6 +1,6 @@
 "use strict";
 
-let arrForOutput = [];
+const arrForOutput = [];
 
 
 
